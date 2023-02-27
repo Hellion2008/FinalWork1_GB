@@ -4,7 +4,7 @@
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i].Length < 3 )
+        if (arr[i].Length <= 3 )
         {
             secondArr[count] = arr[i];
             count++;
